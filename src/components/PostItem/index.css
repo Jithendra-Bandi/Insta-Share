@@ -1,0 +1,29 @@
+.post-item-container {
+  margin-bottom: 15px;
+}
+.upper-post-logo-container {
+  display: flex;
+  background: linear-gradient(to left, #e20337, #c60188, #7700c3);
+  border-radius: 100%;
+  margin-right: 15px;
+  padding: 1px;
+}
+.post-item-logo {
+  border-radius: 100%;
+  height: 50px;
+  width: 50px;
+  padding: 1px;
+  background-color: #ffffff;
+}
+.post-time-ago {
+  color: #989898;
+}
+.black-color {
+  color: #262626;
+}
+@media (min-width: 768px) {
+  .post-item-container {
+    border: 1px solid #dbdbdb;
+    margin-bottom: 30px;
+  }
+}

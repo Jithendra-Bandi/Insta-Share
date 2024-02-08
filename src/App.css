@@ -1,0 +1,108 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Roboto';
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.margin-right {
+  margin-right: 25px;
+}
+.margin-left {
+  margin-left: 15px;
+}
+input {
+  outline: none;
+}
+.pad {
+  padding: 15px;
+}
+.center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.align-center {
+  align-items: center;
+}
+.align-self {
+  align-self: center;
+}
+.text-align-center {
+  display: flex;
+  justify-content: center;
+}
+.row {
+  display: flex;
+  align-items: center;
+}
+.around {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+button {
+  cursor: pointer;
+  outline: none;
+  border-width: 0px;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: transparent;
+}
+.blue-button {
+  color: #ffffff;
+  background-color: #4094ef;
+}
+.nav-link {
+  text-decoration: none;
+  color: #262626;
+}
+ul {
+  padding: 0px;
+}
+li {
+  list-style-type: none;
+}
+.body-bg {
+  background-color: #fafafa;
+}
+.margin-top {
+  margin-top: 30px;
+}
+.margin-bottom {
+  margin-bottom: 30px;
+}
+.no-margin {
+  margin-bottom: 0px;
+}
+.bold {
+  font-weight: bold;
+}
+@media (max-width: 767.9px) {
+  .large-device {
+    display: none;
+  }
+}
+@media (min-width: 768px) {
+  .small-device {
+    display: none;
+  }
+}

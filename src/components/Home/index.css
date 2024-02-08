@@ -1,0 +1,12 @@
+.no-height-container {
+  min-height: 10px;
+}
+.home-hr {
+  border: 0.5px solid #c6c6c8;
+}
+.failure-image {
+  width: 10%;
+}
+.light-color {
+  color: #989898;
+}
